@@ -1,0 +1,100 @@
+object Form2: TForm2
+  Left = 798
+  Height = 179
+  Top = 158
+  Width = 312
+  Caption = 'Média Final'
+  ClientHeight = 179
+  ClientWidth = 312
+  Color = 16744448
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Font.Style = [fsBold]
+  OnCreate = FormCreate
+  LCLVersion = '2.0.8.0'
+  object btnMedia: TButton
+    Left = 104
+    Height = 25
+    Top = 72
+    Width = 94
+    Caption = 'Somar Média'
+    Color = clRed
+    TabOrder = 0
+  end
+  object edt1: TEdit
+    Left = 16
+    Height = 23
+    Top = 32
+    Width = 72
+    Color = clWhite
+    TabOrder = 1
+  end
+  object edt2: TEdit
+    Left = 112
+    Height = 23
+    Top = 32
+    Width = 80
+    Color = clWhite
+    TabOrder = 2
+  end
+  object edt3: TEdit
+    Left = 216
+    Height = 23
+    Top = 32
+    Width = 80
+    Color = clWhite
+    TabOrder = 3
+  end
+  object Nota1: TLabel
+    Left = 32
+    Height = 15
+    Top = 8
+    Width = 40
+    Caption = 'Nota 1:'
+    ParentColor = False
+  end
+  object Nota2: TLabel
+    Left = 128
+    Height = 15
+    Top = 8
+    Width = 40
+    Caption = 'Nota 2:'
+    ParentColor = False
+  end
+  object Nota3: TLabel
+    Left = 232
+    Height = 15
+    Top = 8
+    Width = 40
+    Caption = 'Nota 3:'
+    ParentColor = False
+  end
+  object Resultado: TLabel
+    Left = 104
+    Height = 30
+    Top = 104
+    Width = 97
+    Caption = 'Resultado'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 24
+    Top = 136
+    Width = 280
+    AutoSize = False
+    TabOrder = 4
+  end
+end

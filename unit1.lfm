@@ -1,0 +1,102 @@
+object Form1: TForm1
+  Left = 921
+  Height = 240
+  Top = 139
+  Width = 297
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 297
+  Color = 16744448
+  LCLVersion = '2.0.8.0'
+  object Valor1: TLabel
+    Left = 16
+    Height = 15
+    Top = 8
+    Width = 32
+    Caption = 'Valor1'
+    ParentColor = False
+  end
+  object Valor2: TLabel
+    Left = 16
+    Height = 15
+    Top = 48
+    Width = 32
+    Caption = 'Valor2'
+    ParentColor = False
+  end
+  object Valor3: TLabel
+    Left = 152
+    Height = 15
+    Top = 8
+    Width = 32
+    Caption = 'Valor3'
+    ParentColor = False
+  end
+  object Media: TLabel
+    Left = 152
+    Height = 15
+    Top = 48
+    Width = 33
+    Caption = 'Media'
+    ParentColor = False
+  end
+  object edt1: TEdit
+    Left = 70
+    Height = 23
+    Top = 8
+    Width = 66
+    Color = clWhite
+    TabOrder = 0
+  end
+  object edt3: TEdit
+    Left = 208
+    Height = 23
+    Top = 8
+    Width = 64
+    Color = clWhite
+    TabOrder = 1
+  end
+  object edt2: TEdit
+    Left = 70
+    Height = 23
+    Top = 48
+    Width = 66
+    Color = clWhite
+    TabOrder = 2
+  end
+  object edtMe: TEdit
+    Left = 208
+    Height = 23
+    Top = 48
+    Width = 64
+    Color = clWhite
+    TabOrder = 3
+  end
+  object Resultado: TButton
+    Left = 16
+    Height = 49
+    Top = 80
+    Width = 264
+    Caption = 'Resultado'
+    Color = clLime
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Impact'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = ResultadoClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object edtResultado: TEdit
+    Left = 8
+    Height = 72
+    Top = 144
+    Width = 280
+    AutoSize = False
+    Color = clWhite
+    TabOrder = 5
+  end
+end
